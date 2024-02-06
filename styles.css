@@ -1,0 +1,73 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: white;
+}
+
+/* Position the "No" button absolutely within body */
+#noButton {
+    position: absolute;
+    margin-left: auto; 
+    transition: 0.5s;
+    /* Smooth movement */
+}
+
+#yesButton {
+    position: absolute;
+    margin-right: 150px;
+    /* Smooth movement */
+}
+
+.header_text {
+    font-family: 'Nunito';
+    font-size: 40px;
+    font-weight: bold;
+    color: #1a3250;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    /* optional: adds some space between the buttons */
+}
+
+.btn {
+    width: 69px;
+    background-color: #1a3250;
+    color: white;
+    padding: 15px 15px 15px 15px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    font-weight:bold;
+    margin: 4px 4px 4px 4px;
+    cursor: pointer;
+    border: none;
+    border-radius: 12px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #FAF9F6;
+}
+
+.gif_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    margin-right: 50px;
+}
